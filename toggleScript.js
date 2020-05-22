@@ -1,6 +1,5 @@
 function togglePassword() {
     var x = document.getElementById("input1");
-    var img = document.createElement("img");
     var image = document.getElementById('myImage');
     if (x.type === "password") {
       x.type = "text";  
